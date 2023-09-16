@@ -1,0 +1,19 @@
+.container{
+    max-width: 1080px;
+    margin: 20px auto;
+}
+
+.container::before{
+    content: '';
+    background: url(./img/matin.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
